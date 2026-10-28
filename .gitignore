@@ -1,25 +1,26 @@
-# Virtual environment
+# Python virtual environments
 venv/
 .venv/
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 
 # Vector database
 chroma_db/
 
-# Secrets
+# Environment variables and secrets
 .env
 .env.*
+!.env.example
 
-# IDE
+# Editors
 .vscode/
+
+# Testing
+.pytest_cache/
+.coverage
 
 # Operating system
 .DS_Store
 Thumbs.db
-
-# Test artifacts
-.pytest_cache/
-.coverage
